@@ -70,4 +70,7 @@ run()
 
 app.listen(port, () => {
     console.log(`hi hello ${port}`)
-})
+});
+
+
+module.exports = app;
